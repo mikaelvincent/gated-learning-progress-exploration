@@ -14,8 +14,8 @@ control benchmarks (abstract of the paper, `paper/pcsc/sections/00_abstract.tex`
 - `code/`: the Python package `irl` (installed as `intrinsic-rl`) with the PPO trainer, the
   intrinsic-reward methods, YAML experiment configs per environment (`code/configs/`), the
   stored suite results (`code/results_suite/`) and tests. Setup and usage: `code/README.md`.
-- `paper/pcsc/`: LaTeX sources of the PCSC 2026 paper "Gated Learning-Progress Exploration".
-- `paper/thesis/`: LaTeX sources of the thesis.
+- [`paper/pcsc/`](paper/pcsc/README.md): LaTeX sources of the PCSC 2026 paper "Gated Learning-Progress Exploration".
+- [`paper/thesis/`](paper/thesis/README.md): LaTeX sources of the thesis.
 - `GLPE-PCSC2026-paper.pdf`, `GLPE-thesis.pdf`: the compiled paper and thesis.
 
 ## Getting started
