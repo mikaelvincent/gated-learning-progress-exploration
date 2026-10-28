@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=69", "wheel"]
+requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,7 +7,8 @@ name = "intrinsic-rl"
 dynamic = ["version"]
 description = "Intrinsic RL research codebase for impact and learning-progress signals."
 requires-python = ">=3.10,<3.12"
-authors = [{ name = "Intrinsic RL Team" }]
+license = "MIT"
+authors = [{ name = "Mikael Vincent Tumampos" }]
 keywords = ["reinforcement-learning", "intrinsic-motivation", "ppo", "research"]
 dependencies = [
   "torch>=2.1",

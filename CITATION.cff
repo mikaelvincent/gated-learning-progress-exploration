@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file. To cite the method, use the paper under preferred-citation."
+type: software
+title: "GLPE: research code for Gated Learning-Progress Exploration"
+authors:
+  - family-names: Tumampos
+    given-names: Mikael Vincent
+license: MIT
+repository-code: "https://github.com/mikaelvincent/gated-learning-progress-exploration"
+keywords:
+  - reinforcement learning
+  - intrinsic motivation
+  - exploration
+  - learning progress
+preferred-citation:
+  type: conference-paper
+  title: "Gated Learning-Progress Exploration"
+  authors:
+    - family-names: Tumampos
+      given-names: Mikael Vincent
+      affiliation: "University of San Carlos, Cebu City, Philippines"
+    - family-names: Guirnela
+      given-names: Ervin Joshua
+      affiliation: "University of San Carlos, Cebu City, Philippines"
+    - family-names: Peña
+      given-names: Christine
+      affiliation: "University of San Carlos, Cebu City, Philippines"
+  conference:
+    name: "Philippine Computing Science Congress (PCSC 2026)"
+    city: "Davao City"
+    country: PH
+  year: 2026
+  month: 4

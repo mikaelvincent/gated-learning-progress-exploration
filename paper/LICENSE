@@ -1,0 +1,66 @@
+Licensing of the paper, the thesis and the PDFs
+==============================================
+
+The MIT License in the repository root (../LICENSE) applies to the software in
+code/ only. It does not apply to anything described in this file.
+
+
+1. Paper, thesis and PDFs: all rights reserved
+----------------------------------------------
+
+Copyright (c) 2025-2026 the authors. All rights reserved.
+
+This covers:
+
+  - the LaTeX sources, text, figures and tables under paper/pcsc/ and
+    paper/thesis/;
+  - the compiled PDFs pcsc.pdf and thesis.pdf in the repository root;
+  - earlier drafts and proposal material that exist only in the Git history of
+    this repository (for example under paper_proposal/).
+
+The one exception is the third-party material in section 2 and the templates
+in section 3, which are not covered wherever they appear. That includes the
+pages of that material that are embedded in thesis.pdf (the thesis includes the
+approval and declaration forms, the reviews, the certificate, the
+proof-of-publication capture and a co-author's curriculum vitae as page
+images).
+
+You may read and cite this material. You may not republish, redistribute or
+reuse it, in whole or in part, without the written permission of the authors.
+The authors of each document are named in the document itself; the PCSC 2026
+paper is also listed in ../CITATION.cff.
+
+
+2. Third-party material stays with its owners
+---------------------------------------------
+
+Some documents under paper/thesis/sections/images/ were created by others and
+are included only as supporting documents of the thesis. They are not licensed
+by this repository, and no rights in them are granted here:
+
+  - reviewers' comments (pcsc_reviews/);
+  - certificates (pcsc_presentation_certificate/);
+  - approval and declaration forms (thesis_approval/ and
+    declaration_of_authorship_and_originality/);
+  - the proof-of-publication capture (proof_of_publication/);
+  - any institutional or publisher logos that appear on those pages;
+  - the curriculum vitae of a co-author (curricula_vitae/).
+
+Contact their owners for any reuse.
+
+
+3. LaTeX templates keep their own terms
+---------------------------------------
+
+The files in paper/pcsc/templates/ are third-party. Each keeps its own licence
+terms and header notices, and this repository does not relicense them:
+
+  - pcsc/acmart.cls (ACM): the notice at the top of the file defers to the
+    terms in acmart.dtx; the acmart package is distributed on CTAN under the
+    LaTeX Project Public License (LPPL).
+  - icml/icml2024.bst and iclr/iclr2024_conference.bst: LPPL, version 1 or any
+    later version, as stated in their headers.
+  - neurips/neurips_2023.sty, icml/icml2024.sty and
+    iclr/iclr2024_conference.sty: the conference author kits. The files carry
+    no licence notice; the rights remain with the conference or the original
+    authors.
