@@ -23,7 +23,7 @@ owners; see [`../LICENSE`](../LICENSE), section 2.
 ## Build
 
 Requires Python 3, a TeX distribution and `latexmk` on `PATH`. `main.tex` uses `biblatex` with the
-`biber` backend. From the repository root:
+`biber` backend, and it needs the `uarial` (URW Arial) font package. From the repository root:
 
 ```bash
 python paper/thesis/scripts/build_thesis.py

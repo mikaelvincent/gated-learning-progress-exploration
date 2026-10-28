@@ -13,7 +13,7 @@ Congress, PCSC 2026). The compiled paper is `GLPE-PCSC2026-paper.pdf` in the rep
 - `references/references.bib`: the bibliography.
 - `targets/`: one wrapper per venue format: `pcsc.tex` (ACM `acmart`, the PCSC paper), `arxiv.tex`,
   `iclr.tex`, `icml.tex` and `neurips.tex`.
-- `templates/`: venue style files, one folder per target. These are third-party and keep their
+- `templates/`: venue style files, one folder per target except `arxiv`. These are third-party and keep their
   own licences (see [`../LICENSE`](../LICENSE), section 3).
 - `scripts/build_paper.py`: the build script.
 
