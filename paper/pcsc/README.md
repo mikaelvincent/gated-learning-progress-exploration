@@ -6,7 +6,9 @@ Congress, PCSC 2026). The compiled paper is `GLPE-PCSC2026-paper.pdf` in the rep
 ## Contents
 
 - `sections/`: the paper text (`00_abstract.tex` to `05_conclusion.tex`).
-- `content.tex`, `content_body.tex`: shared LaTeX definitions and the body that pulls in the sections.
+- `content.tex`, `content_body.tex`: shared bodies that input the sections. `content_body.tex` is the
+  body without the abstract (used by `pcsc.tex` and `icml.tex`, which input the abstract themselves);
+  `content.tex` also inputs the abstract (used by `arxiv.tex`, `iclr.tex` and `neurips.tex`).
 - `figures/`, `tables/`: figures (PNG plus their `.tex` wrappers) and tables.
 - `references/references.bib`: the bibliography.
 - `targets/`: one wrapper per venue format: `pcsc.tex` (ACM `acmart`, the PCSC paper), `arxiv.tex`,
