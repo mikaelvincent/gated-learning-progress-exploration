@@ -16,7 +16,7 @@ control benchmarks (abstract of the paper, `paper/pcsc/sections/00_abstract.tex`
   stored suite results (`code/results_suite/`) and tests.
 - `paper/pcsc/`: LaTeX sources of the PCSC 2026 paper "Gated Learning-Progress Exploration".
 - `paper/thesis/`: LaTeX sources of the thesis.
-- `pcsc.pdf`, `thesis.pdf`: the compiled paper and thesis.
+- `GLPE-PCSC2026-paper.pdf`, `GLPE-thesis.pdf`: the compiled paper and thesis.
 
 ## Quick start
 
@@ -42,8 +42,8 @@ pytest                           # tests
 ## License
 
 - `code/` is under the MIT License (see `LICENSE`).
-- `paper/`, the thesis, `pcsc.pdf` and `thesis.pdf` are copyright 2025-2026 the authors, all
-  rights reserved (see `paper/LICENSE`).
+- `paper/`, the thesis, `GLPE-PCSC2026-paper.pdf` and `GLPE-thesis.pdf` are copyright 2025-2026
+  the authors, all rights reserved (see `paper/LICENSE`).
 - Third-party material (reviews, certificates, forms, web capture, logos, CVs) stays with its
   owners, and `paper/pcsc/templates/` keeps its own terms (see `paper/LICENSE`).
 

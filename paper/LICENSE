@@ -14,14 +14,15 @@ This covers:
 
   - the LaTeX sources, text, figures and tables under paper/pcsc/ and
     paper/thesis/;
-  - the compiled PDFs pcsc.pdf and thesis.pdf in the repository root;
+  - the compiled PDFs GLPE-PCSC2026-paper.pdf and GLPE-thesis.pdf in the repository
+    root;
   - earlier drafts and proposal material that exist only in the Git history of
     this repository (for example under paper_proposal/).
 
 The one exception is the third-party material in section 2 and the templates
 in section 3, which are not covered wherever they appear. That includes the
-pages of that material that are embedded in thesis.pdf (the thesis includes the
-approval and declaration forms, the reviews, the certificate, the
+pages of that material that are embedded in GLPE-thesis.pdf (the thesis includes
+the approval and declaration forms, the reviews, the certificate, the
 proof-of-publication capture and a co-author's curriculum vitae as page
 images).
 
