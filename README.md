@@ -36,3 +36,6 @@ tests) are in [`code/README.md`](code/README.md).
 See [`CITATION.cff`](CITATION.cff) (GitHub: "Cite this repository"). The paper is: Mikael Vincent Tumampos,
 Ervin Joshua Guirnela and Christine Peña, "Gated Learning-Progress Exploration",
 Philippine Computing Science Congress (PCSC 2026), Davao City, Philippines.
+
+The thesis is: Mikael Vincent Tumampos and Ervin Joshua Guirnela, "Gated Learning-Progress
+Exploration", Bachelor's thesis (BS Computer Science), University of San Carlos, May 2026.
