@@ -31,7 +31,7 @@ pip install -e ".[dev]"          # optional: pytest
 
 ```bash
 intrinsic-rl --help
-intrinsic-rl suite train         # train every config under configs/ (all seeds)
+intrinsic-rl suite train         # train every config under configs/ (all configured seeds)
 intrinsic-rl suite eval          # evaluate the trained runs
 intrinsic-rl suite plots         # make the plots
 intrinsic-rl suite videos        # make the videos
