@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "intrinsic-rl"
 dynamic = ["version"]
 description = "Intrinsic RL research codebase for impact and learning-progress signals."
+readme = "README.md"
 requires-python = ">=3.10,<3.12"
 license = "MIT"
 authors = [{ name = "Mikael Vincent Tumampos" }]

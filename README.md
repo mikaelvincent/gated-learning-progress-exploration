@@ -13,42 +13,26 @@ control benchmarks (abstract of the paper, `paper/pcsc/sections/00_abstract.tex`
 
 - `code/`: the Python package `irl` (installed as `intrinsic-rl`) with the PPO trainer, the
   intrinsic-reward methods, YAML experiment configs per environment (`code/configs/`), the
-  stored suite results (`code/results_suite/`) and tests.
+  stored suite results (`code/results_suite/`) and tests. Setup and usage: `code/README.md`.
 - `paper/pcsc/`: LaTeX sources of the PCSC 2026 paper "Gated Learning-Progress Exploration".
 - `paper/thesis/`: LaTeX sources of the thesis.
 - `GLPE-PCSC2026-paper.pdf`, `GLPE-thesis.pdf`: the compiled paper and thesis.
 
-## Quick start
+## Getting started
 
-Requires Python 3.10 or 3.11. Run the commands from `code/`, because the suite commands read
-`configs/` and write `runs_suite/` and `results_suite/` relative to the current directory.
-
-```bash
-cd code
-pip install -e .                 # core dependencies (PyTorch, Gymnasium, ...)
-pip install -e ".[box2d]"        # optional: BipedalWalker
-pip install -e ".[mujoco]"       # optional: Ant, HalfCheetah, Humanoid
-pip install -e ".[dev]"          # optional: pytest
-
-intrinsic-rl --help
-intrinsic-rl suite train         # train every config under configs/ (all seeds)
-intrinsic-rl suite eval          # evaluate the trained runs
-intrinsic-rl suite plots         # make the plots
-intrinsic-rl suite full          # train, eval, plots, videos and validate in one go
-intrinsic-rl bench               # microbenchmarks
-pytest                           # tests
-```
+Setup and usage of the code (requirements, installation, the `intrinsic-rl` commands and the
+tests) are in [`code/README.md`](code/README.md).
 
 ## License
 
-- `code/` is under the MIT License (see `LICENSE`).
+- `code/` is under the MIT License (see [`LICENSE`](LICENSE)).
 - `paper/`, the thesis, `GLPE-PCSC2026-paper.pdf` and `GLPE-thesis.pdf` are copyright 2025-2026
-  the authors, all rights reserved (see `paper/LICENSE`).
+  the authors, all rights reserved (see [`paper/LICENSE`](paper/LICENSE)).
 - Third-party material (reviews, certificates, forms, web capture, logos, CVs) stays with its
-  owners, and `paper/pcsc/templates/` keeps its own terms (see `paper/LICENSE`).
+  owners, and `paper/pcsc/templates/` keeps its own terms (see [`paper/LICENSE`](paper/LICENSE)).
 
 ## How to cite
 
-See `CITATION.cff` (GitHub: "Cite this repository"). The paper is: Mikael Vincent Tumampos,
+See [`CITATION.cff`](CITATION.cff) (GitHub: "Cite this repository"). The paper is: Mikael Vincent Tumampos,
 Ervin Joshua Guirnela and Christine Peña, "Gated Learning-Progress Exploration",
 Philippine Computing Science Congress (PCSC 2026), Davao City, Philippines.
