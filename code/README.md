@@ -40,7 +40,7 @@ intrinsic-rl suite full          # train, eval, plots, videos and validate in on
 intrinsic-rl bench               # microbenchmarks
 ```
 
-Use `--help` on any command (for example `intrinsic-rl suite train --help`) for its options.
+The commands take no options; paths and defaults are fixed in `irl/paper_defaults.py`.
 
 ## Tests
 
